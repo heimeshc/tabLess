@@ -2,28 +2,53 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    min-width: 250px;
+    min-height: 300px;
+    background: #18192F;
+    color: #EAEAEA;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 10;
+    font-size: 30px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 20;
+    font-size: 14px;
+}
+
+span {
+    color: #1AA160;
 }
 
 input {
-    width: 100%;
+    width: 230px;
+    height: 25px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
     margin-bottom: 4px;
+    border-radius: 6px;
 }
 
 button {
     background: #5f9341;
     color: white;
     padding: 10px 20px;
-    border: 1px solid #5f9341;
     font-weight: bold;
+    border-radius: 6px;
+    margin: 0 2px;
+}
+
+#tab-btn {
+    background: #1AA160;
 }
 
 #delete-btn {
-    background: white;
-    color: #5f9341;
+    background: #BA3535;
 }
 
 ul {
